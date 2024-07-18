@@ -71,3 +71,10 @@ function multiply(x, y){
 }
 
 console.log(multiply(10, 15));
+
+//events when a button is clicked, when a mouse is moved.
+//locate elemnts on .js 
+//use of id attribute
+p_one = document.getElementById("main_p");//change it using Javascript
+p_one.innerHTML = "This paragraph has been changed by Javascript"
+//can also fetch withelement name use of class
